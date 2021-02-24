@@ -1,0 +1,29 @@
+.header-box{
+    height: 50px;
+    background-color: #F6F8F9;
+}
+.nav-a{
+    float: left;
+    font-size: 13px;
+    padding: 19px;
+    color: #FA6980;
+}
+.header-logo{
+    float: right;
+    margin: 10px 20px 10px;
+}
+.nav-ul{
+	display: flex;
+    float: right;
+    text-transform: uppercase;
+}
+.nav-li{
+    margin-right: 7px; 
+    padding: 19px;
+}
+.nav-b {
+    opacity: 50%;
+    color: #343638;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
