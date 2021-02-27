@@ -1,0 +1,130 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 768px){
+    .world-header::after{
+        height: 2px;
+    }
+    
+    .world-header{
+        margin-bottom: 20px;
+    }
+    
+    .world-container{
+        max-height: 400px;
+    }
+    
+    .news-form{
+        width: 100%;
+    }
+
+    .more-container{
+        width: 80%;
+        padding: 85px 0;
+    }
+
+    .trending-container{
+        padding: 40px 0;
+    }
+
+    .news-form>input, .news-form>select{
+        width: 100% !important;
+    }
+
+    .cards{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .card-1{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .card-1>h2{
+        margin-top: 20px;
+    }
+
+    .card-3{
+        display: block;
+    }
+
+    .small-article-1, .story-big-info{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .small-articles{
+        display: block;
+        margin: 20px 0;
+    }
+
+    .story-added{
+        display: block;
+    }
+
+    .story-added>h4{
+        color: #202124;
+        font-weight: normal;
+        line-height: 1.8;
+    }
+
+    .pages{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 330px;
+        margin: auto;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-top: 40px;
+        color: #A6ADB4;
+    }
+
+    .page-num{
+        cursor: pointer;
+    }
+
+    .page-active{
+        color: black;
+        border-bottom: solid 2px #FA6980;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .fa-ellipsis-h{
+        color: black;
+        font-size: 20px;
+    }
+
+    .happening-container{
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 635px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px){
+    .small-article-1::before {
+        display: none;
+    }
+
+    .more-container{
+        width: 90%
+    }
+}
+
+@media (max-width: 365px){
+    .pages{
+        width: 300px;
+    }
+}
