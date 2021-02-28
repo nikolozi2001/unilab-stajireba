@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Story</title>
-    <!-- seo meta tags -->
-	  <meta name="description" content="Unilab stajireba">
-	  <meta name="keywords" content="HTML, CSS, JavaScript">
-	  <meta name="author" content="Nika Kachibaia">
-    <!-- facebook  meta tags -->
-	  <meta property="og:url"                content="https://nikolozi2001.github.io/unilab-stajireba/" />
-	  <meta property="og:type"               content="stajireba" />
-	  <meta property="og:title"              content="Unilab" />
-	  <meta property="og:description"        content="unilab-stajireba" />
-	  <meta property="og:image"              content="https://media.gettyimages.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1133924836?s=2048x2048" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css"/>
-    <link rel="stylesheet" href="style/story-style.css">
-    <link rel="stylesheet" href="style/responsive.css">
-    <link rel="stylesheet" href="style/responsive-story.css">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- seo meta tags -->
+  <meta name="description" content="Unilab stajireba">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Nika Kachibaia">
+  <!-- facebook  meta tags -->
+  <meta property="og:url"                content="https://nikolozi2001.github.io/unilab-stajireba/" />
+  <meta property="og:type"               content="stajireba" />
+  <meta property="og:title"              content="Unilab" />
+  <meta property="og:description"        content="unilab-stajireba" />
+  <meta property="og:image"              content="https://media.gettyimages.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1133924836?s=2048x2048" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <link rel="stylesheet" href="styles/responsive.css">
+  <link rel="stylesheet" href="styles/story-style.css">
+  <link rel="stylesheet" href="styles/responsive-story.css">
+  <title>unilab-stajireba</title>
+</head>
   <body>
     <header>
       <div class="header-wrapper">
         <div class="logo">
-          <a href="#">LOGO</a>
+          <a href="index.html">LOGO</a>
           <i class="burger-bar fas fa-bars"></i>
         </div>
         <div class="header-right">
@@ -43,7 +43,7 @@
                   <p class="footer-logo">LOGO</p>
                   <div class="nav-cols">
                     <div class="nav-col nav-col-1">
-                      <p><a hrefaa="index.html">Home</a></p>
+                      <p><a href="index.html">Home</a></p>
                       <p><a href="#">Discovery</a></p>
                       <p><a href="#">Photos</a></p>
                       <p><a href="#">Contact</a></p>
@@ -86,7 +86,24 @@
     </header>
     <div class="story-header-wrapper">
       <i class="fas fa-home"></i>
-      <a href=""><span class="story-opt">STORY</span></a> <span class="divider">/</span> <a href="#"> <span class="world-opt"></span>WORLD NEWS</span> </a>
+      <a href="#"><span class="story-opt">STORY</span></a> <span class="divider">/</span> <a href="#"> <span class="world-opt">WORLD NEWS</span> </a>
+      <a href="#">
+        <svg id="filter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+          <defs>
+            <clipPath id="clip-path">
+              <rect width="16" height="16" fill="none"/>
+            </clipPath>
+          </defs>
+          <g id="base" fill="none" stroke="#ebeded" stroke-width="2">
+            <rect width="40" height="40" rx="6" stroke="none"/>
+            <rect x="1" y="1" width="38" height="38" rx="5" fill="none"/>
+          </g>
+          <g id="filter-2" data-name="filter" transform="translate(12 12)" clip-path="url(#clip-path)">
+            <path id="filter-3" data-name="filter" d="M16,1V3H5.7A1.945,1.945,0,0,1,2.3,3H0V1H2.3A1.945,1.945,0,0,1,5.7,1ZM12,6a1.936,1.936,0,0,0-1.7,1H0V9H10.3a1.945,1.945,0,0,0,3.4,0H16V7H13.7A1.936,1.936,0,0,0,12,6ZM8,12a1.936,1.936,0,0,0-1.7,1H0v2H6.3a1.945,1.945,0,0,0,3.4,0H16V13H9.7A1.936,1.936,0,0,0,8,12Z" fill="#575f66"/>
+          </g>
+        </svg>
+        
+      </a>
     </div>
     <section id="main-section">
       <div class="world-container">
@@ -100,7 +117,7 @@
         <div class="more-container">
           <form class="news-form" action="">
             <label for="date">Select a date</label>
-            <select placeholder="Select..." name="date" id="date">
+            <select name="date" id="date">
               <option value="" disabled selected>Select...</option>
               <option value="Date1">Date 1</option>
               <option value="Date2">Date 2</option>
@@ -109,7 +126,7 @@
             </select>
             <label for="keyword">Enter the first keywords</label>
             <input type="text">
-            <button href="#" class="search" id="learn-more"><a href="story.html">SEARCH</a></button>
+            <button class="search" id="learn-more"><a href="story.html">SEARCH</a></button>
           </form>
         </div>
       </div>
@@ -169,7 +186,7 @@
           <p class="footer-logo">LOGO</p>
           <div class="nav-cols">
             <div class="nav-col nav-col-1">
-              <p><a hrefaa="#">Home</a></p>
+              <p><a href="index.html">Home</a></p>
               <p><a href="#">Discovery</a></p>
               <p><a href="#">Photos</a></p>
               <p><a href="#">Contact</a></p>
