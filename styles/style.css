@@ -67,6 +67,10 @@ header{
   font-weight: bold;
 }
 
+.navigation ul li a :hover{
+  color: black;
+}
+
 .active-page a{
   color: black !important;
 }
@@ -123,6 +127,10 @@ header{
   max-width: 840px;
   width: 60%;
   height: 600px;
+}
+
+.arrow-wrap i {
+  cursor: pointer;
 }
 
 .world-news{
