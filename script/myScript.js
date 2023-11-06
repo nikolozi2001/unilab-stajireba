@@ -8,6 +8,20 @@ const navSlide = () => {
 
 navSlide();
 
+// var burgerIcon = document.getElementById("burgerIcon");
+// var counter = 0;
+
+// burgerIcon.onclick = function() {
+//     counter++;
+//     if (counter % 2 === 0) {
+//         this.classList.remove("fas", "fa-bars");
+//         this.classList.add("fas", "fa-close");
+//     } else {
+//         this.classList.remove("fas", "fa-close");
+//         this.classList.add("fas", "fa-bars");
+//     }
+// };
+
 // slider
 
 document.addEventListener("DOMContentLoaded", function () {
