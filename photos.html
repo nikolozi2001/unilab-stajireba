@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- seo meta tags -->
+    <meta name="description" content="Unilab stajireba">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Nika Kachibaia">
+    <!-- facebook  meta tags -->
+    <meta property="og:url" content="https://nikolozi2001.github.io/unilab-stajireba/" />
+    <meta property="og:type" content="stajireba" />
+    <meta property="og:title" content="Unilab" />
+    <meta property="og:description" content="unilab-stajireba" />
+    <meta property="og:image"
+        content="https://media.gettyimages.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1133924836?s=2048x2048" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/story-style.css">
+    <link rel="stylesheet" href="styles/responsive-story.css">
+    <title>UniLab</title>
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://unilab.iliauni.edu.ge/wp-content/uploads/2021/08/Asset-1-4.png" />
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="logo">
+                <a href="index.html">LOGO</a>
+                <a href="index.html"><i class="burger-bar fas fa-arrow-left"></i></a>
+            </div>
+            <img class="redhead-img" src="./images/Redhead.png" alt="Girl">
+        </div>
+    </header>
+    <div class="story-header-wrapper">
+        <div class="story-icons">
+            <i class="fas fa-home"></i>
+            <a href="#"><span class="story-opt">HOME</span></a> <span class="divider">/</span> <a href="#"> <span
+                    class="world-opt">PHOTOS</span> </a>
+        </div>
+        <div class="settings">
+            <a href="#">
+                <svg id="filter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="40" height="40" viewBox="0 0 40 40">
+                    <defs>
+                        <clipPath id="clip-path">
+                            <rect width="16" height="16" fill="none" />
+                        </clipPath>
+                    </defs>
+                    <g id="base" fill="none" stroke="#ebeded" stroke-width="2">
+                        <rect width="40" height="40" rx="6" stroke="none" />
+                        <rect x="1" y="1" width="38" height="38" rx="5" fill="none" />
+                    </g>
+                    <g id="filter-2" data-name="filter" transform="translate(12 12)" clip-path="url(#clip-path)">
+                        <path id="filter-3" data-name="filter"
+                            d="M16,1V3H5.7A1.945,1.945,0,0,1,2.3,3H0V1H2.3A1.945,1.945,0,0,1,5.7,1ZM12,6a1.936,1.936,0,0,0-1.7,1H0V9H10.3a1.945,1.945,0,0,0,3.4,0H16V7H13.7A1.936,1.936,0,0,0,12,6ZM8,12a1.936,1.936,0,0,0-1.7,1H0v2H6.3a1.945,1.945,0,0,0,3.4,0H16V13H9.7A1.936,1.936,0,0,0,8,12Z"
+                            fill="#575f66" />
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <!-- API Section -->
+    <section class="section api_section">
+        <div class="container">
+            <!-- here is API JSON Data -->
+            <div class="api_content"></div>
+            <div class="buttons">
+                <a href="#p-main" class="prev_button"><i class="fas fa-arrow-left"></i></a>
+                <a href="#p-main" class="next_button"><i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-nav">
+                <p class="footer-logo">LOGO</p>
+                <div class="nav-cols">
+                    <div class="nav-col nav-col-1">
+                        <p><a href="index.html">Home</a></p>
+                        <p><a href="story.html">Discovery</a></p>
+                        <p><a href="photos.html">Photos</a></p>
+                        <p><a href="#">Contact</a></p>
+                    </div>
+                    <div class="nav-col">
+                        <p><a href="#">About</a></p>
+                        <p><a href="#">Help</a></p>
+                        <p><a href="#">Terms</a></p>
+                        <p><a href="#">Guidelines</a></p>
+                    </div>
+                    <div class="nav-col">
+                        <p><a href="#">Testimonials</a></p>
+                        <p><a href="#">Advertise</a></p>
+                        <p><a href="#">Integrations</a></p>
+                        <p><a href="#">Careers</a></p>
+                    </div>
+                </div>
+            </div>
+            <form class="footer-form">
+                <div class="email-wrapper">
+                    <input type="email" placeholder="Email">
+                    <i class="fas fa-location-arrow"></i>
+                </div>
+                <p class="form-text">Stay in touch with us for the freshest products!</p>
+            </form>
+            <div class="icons-container">
+                <div class="footer-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fas fa-globe-africa"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script/api.js"></script>
+    <script src="script/myScript.js"></script>
+    <script src="https://kit.fontawesome.com/5968971b15.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,3 +1,32 @@
+:root {
+  /* Colors */
+  --dark-color: #202124;
+  --dark-gray: #a6adb4;
+  --light-gray: #ebeded;
+  --lighter-gray: #f6f8f9;
+  --white-color: #ffffff;
+
+  --light-blue-color: #72acff;
+  --light-green-color: #52e5ba;
+  --light-yellow-color: #ffc96c;
+  --night-pink-color: #fa6980;
+  --night-orange-color: #ff4d4d;
+
+  /* Fonts */
+  --main-fontFamily: "Helvetica";
+  --main-fontSize: 24px;
+  --paragrapg-fontSize: 16px;
+  --icon-fontSize: 13px;
+  --button-fontSize: 11px;
+
+  --oblique-w4: 400;
+  --medium-w5: 500;
+  --bold-w7: 700;
+
+  --max-zIndex: 999;
+  --min-zIndex: -1;
+}
+
 @font-face {
   src: url(../fonts/Helvetica.ttf);
   font-family: Helvetica;
@@ -525,4 +554,87 @@ header {
   justify-content: space-between;
   font-size: 20px;
   margin-left: 40px;
+}
+
+/* API Page  */
+
+.api_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.api_card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 360px;
+  height: 300px;
+  border: 2px solid var(--dark-gray);
+  background-color: var(--white-color);
+  border-radius: 6px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.api_card:hover h1 {
+  color: var(--light-green-color);
+}
+
+.api_card:hover {
+  box-shadow: 5px 5px 15px 0px var(--dark-gray);
+}
+
+.api_card h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: var(--main-fontSize);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--dark-color);
+  color: var(--light-blue-color);
+  transition: 0.3s;
+}
+
+.api_card h2 {
+  font-size: var(--paragrapg-fontSize);
+  font-family: var(--main-fontFamily);
+  font-weight: var(--bold-w7);
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.api_card .paragraph {
+  line-height: 24px;
+  color: var(--dark-gray);
+}
+
+.api_section .buttons {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  gap: 20px;
+}
+
+.api_section .buttons a {
+  font-size: var(--button-fontSize);
+  color: var(--dark-color);
+  font-weight: var(--bold-w7);
+  padding: 10px 30px;
+  background-color: var(--white-color);
+  border: 2px solid var(--dark-color);
+  border-radius: 6px;
+}
+
+.api_section .buttons a:hover {
+  background-color: var(--night-orange-color);
+  color: var(--white-color);
+}
+.fa-arrow-left{
+  color: black;
 }
