@@ -122,6 +122,13 @@
     .story-header-wrapper{
         display: none;
     }
+    .logo{
+        display: none;
+    }
+
+    .logo_mobile{
+        display: block;
+    }
 }
 
 @media (max-width: 365px){

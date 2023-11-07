@@ -21,6 +21,10 @@
             align-items: center;
 }
 
+.logo_mobile{
+    display: none;
+}
+
 .story-header-wrapper .fa-home{
     font-size: 20px;
     margin-right: 30px;

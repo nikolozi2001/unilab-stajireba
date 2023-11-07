@@ -306,7 +306,7 @@
     }
 
     .icons-container{
-        margin-left: 57px;
+        margin-left: 30px;
     }
 }
 
@@ -390,5 +390,8 @@
 
     .small-article-3{
         display: block;
+    }
+    .footer-container{
+        margin-top: -25px;
     }
 }
